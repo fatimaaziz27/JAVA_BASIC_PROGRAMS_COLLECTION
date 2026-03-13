@@ -1,25 +1,27 @@
-
-
 //                                ===============  Java Basic Programs Collection  ===============
 // This repository contains common Java programming practice problems for beginners such as number problems, array algorithms, and string operations.
 
 
 // 1. Check Even or Odd
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class EvenOdd {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+// public class EvenOdd {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
 
-        int num = sc.nextInt();
+//         int num = sc.nextInt();
 
-        if (num % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
-    }
-}
+//         if (num % 2 == 0)
+//             System.out.println("Even");
+//         else
+//             System.out.println("Odd");
+//     }
+// }
+
+// OUTPUT:
+// 3
+// Odd
 
 // 2. Check Prime Number
 
@@ -46,24 +48,28 @@ public class EvenOdd {
 //     }
 // }
 
-// // 3. Factorial of a Number
+// OUTPUT:
+// 7
+// Prime Number
 
-// import java.util.Scanner;
+// 3. Factorial of a Number
 
-// public class Factorial {
-//     public static void main(String[] args) {
+import java.util.Scanner;
 
-//         Scanner sc = new Scanner(System.in);
-//         int num = sc.nextInt();
-//         int fact = 1;
+public class Factorial {
+    public static void main(String[] args) {
 
-//         for(int i = 1; i <= num; i++) {
-//             fact = fact * i;
-//         }
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int fact = 1;
 
-//         System.out.println("Factorial = " + fact);
-//     }
-// }
+        for(int i = 1; i <= num; i++) {
+            fact = fact * i;
+        }
+
+        System.out.println("Factorial = " + fact);
+    }
+}
 
 // // 4. Fibonacci Series (First N Terms)
 
