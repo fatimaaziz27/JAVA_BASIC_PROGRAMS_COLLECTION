@@ -71,231 +71,231 @@ public class Factorial {
     }
 }
 
-// // 4. Fibonacci Series (First N Terms)
+// 4. Fibonacci Series (First N Terms)
 
-// import java.util.Scanner;
+import java.util.Scanner;
 
-// public class Fibonacci {
-//     public static void main(String[] args) {
+public class Fibonacci {
+    public static void main(String[] args) {
 
-//         Scanner sc = new Scanner(System.in);
-//         int n = sc.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
 
-//         int a = 0, b = 1;
+        int a = 0, b = 1;
 
-//         for(int i = 1; i <= n; i++) {
-//             System.out.print(a + " ");
+        for(int i = 1; i <= n; i++) {
+            System.out.print(a + " ");
 
-//             int next = a + b;
-//             a = b;
-//             b = next;
-//         }
-//     }
-// }
+            int next = a + b;
+            a = b;
+            b = next;
+        }
+    }
+}
 
-// // 5. Reverse a Number
+// 5. Reverse a Number
 
-// import java.util.Scanner;
+import java.util.Scanner;
 
-// public class ReverseNumber {
-//     public static void main(String[] args) {
+public class ReverseNumber {
+    public static void main(String[] args) {
 
-//         Scanner sc = new Scanner(System.in);
-//         int num = sc.nextInt();
-//         int reverse = 0;
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int reverse = 0;
 
-//         while(num != 0) {
-//             int digit = num % 10;
-//             reverse = reverse * 10 + digit;
-//             num = num / 10;
-//         }
+        while(num != 0) {
+            int digit = num % 10;
+            reverse = reverse * 10 + digit;
+            num = num / 10;
+        }
 
-//         System.out.println("Reverse = " + reverse);
-//     }
-// }
+        System.out.println("Reverse = " + reverse);
+    }
+}
 
-// // 6. Check Palindrome Number
+// 6. Check Palindrome Number
 
-// import java.util.Scanner;
+import java.util.Scanner;
 
-// public class PalindromeNumber {
-//     public static void main(String[] args) {
+public class PalindromeNumber {
+    public static void main(String[] args) {
 
-//         Scanner sc = new Scanner(System.in);
-//         int num = sc.nextInt();
-//         int original = num;
-//         int reverse = 0;
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int original = num;
+        int reverse = 0;
 
-//         while(num != 0) {
-//             int digit = num % 10;
-//             reverse = reverse * 10 + digit;
-//             num = num / 10;
-//         }
+        while(num != 0) {
+            int digit = num % 10;
+            reverse = reverse * 10 + digit;
+            num = num / 10;
+        }
 
-//         if(original == reverse)
-//             System.out.println("Palindrome");
-//         else
-//             System.out.println("Not Palindrome");
-//     }
-// }
+        if(original == reverse)
+            System.out.println("Palindrome");
+        else
+            System.out.println("Not Palindrome");
+    }
+}
 
-// // 7. Armstrong Number
+// 7. Armstrong Number
 
-// import java.util.Scanner;
+import java.util.Scanner;
 
-// public class Armstrong {
-//     public static void main(String[] args) {
+public class Armstrong {
+    public static void main(String[] args) {
 
-//         Scanner sc = new Scanner(System.in);
-//         int num = sc.nextInt();
-//         int sum = 0;
-//         int temp = num;
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int sum = 0;
+        int temp = num;
 
-//         while(temp != 0) {
-//             int digit = temp % 10;
-//             sum = sum + (digit * digit * digit);
-//             temp = temp / 10;
-//         }
+        while(temp != 0) {
+            int digit = temp % 10;
+            sum = sum + (digit * digit * digit);
+            temp = temp / 10;
+        }
 
-//         if(sum == num)
-//             System.out.println("Armstrong Number");
-//         else
-//             System.out.println("Not Armstrong");
-//     }
-// }
+        if(sum == num)
+            System.out.println("Armstrong Number");
+        else
+            System.out.println("Not Armstrong");
+    }
+}
 
-// // 8. Sum of Digits
+// 8. Sum of Digits
 
-// import java.util.Scanner;
+import java.util.Scanner;
 
-// public class SumDigits {
-//     public static void main(String[] args) {
+public class SumDigits {
+    public static void main(String[] args) {
 
-//         Scanner sc = new Scanner(System.in);
-//         int num = sc.nextInt();
-//         int sum = 0;
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int sum = 0;
 
-//         while(num != 0) {
-//             sum += num % 10;
-//             num /= 10;
-//         }
+        while(num != 0) {
+            sum += num % 10;
+            num /= 10;
+        }
 
-//         System.out.println("Sum = " + sum);
-//     }
-// }
+        System.out.println("Sum = " + sum);
+    }
+}
 
-// // 9. Largest of Three Numbers
+// 9. Largest of Three Numbers
 
-// import java.util.Scanner;
+import java.util.Scanner;
 
-// public class LargestNumber {
-//     public static void main(String[] args) {
+public class LargestNumber {
+    public static void main(String[] args) {
 
-//         Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-//         int a = sc.nextInt();
-//         int b = sc.nextInt();
-//         int c = sc.nextInt();
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
 
-//         if(a >= b && a >= c)
-//             System.out.println("Largest = " + a);
-//         else if(b >= a && b >= c)
-//             System.out.println("Largest = " + b);
-//         else
-//             System.out.println("Largest = " + c);
-//     }
-// }
+        if(a >= b && a >= c)
+            System.out.println("Largest = " + a);
+        else if(b >= a && b >= c)
+            System.out.println("Largest = " + b);
+        else
+            System.out.println("Largest = " + c);
+    }
+}
 
-// // 10. GCD of Two Numbers
+// 10. GCD of Two Numbers
 
-// import java.util.Scanner;
+import java.util.Scanner;
 
-// public class GCD {
-//     public static void main(String[] args) {
+public class GCD {
+    public static void main(String[] args) {
 
-//         Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-//         int a = sc.nextInt();
-//         int b = sc.nextInt();
+        int a = sc.nextInt();
+        int b = sc.nextInt();
 
-//         int gcd = 1;
+        int gcd = 1;
 
-//         for(int i = 1; i <= a && i <= b; i++) {
-//             if(a % i == 0 && b % i == 0)
-//                 gcd = i;
-//         }
+        for(int i = 1; i <= a && i <= b; i++) {
+            if(a % i == 0 && b % i == 0)
+                gcd = i;
+        }
 
-//         System.out.println("GCD = " + gcd);
-//     }
-// }
+        System.out.println("GCD = " + gcd);
+    }
+}
 
-// // 11. LCM of Two Numbers
+// 11. LCM of Two Numbers
 
-// import java.util.Scanner;
+import java.util.Scanner;
 
-// public class LCM {
-//     public static void main(String[] args) {
+public class LCM {
+    public static void main(String[] args) {
 
-//         Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-//         int a = sc.nextInt();
-//         int b = sc.nextInt();
+        int a = sc.nextInt();
+        int b = sc.nextInt();
 
-//         int lcm = (a * b) / gcd(a,b);
+        int lcm = (a * b) / gcd(a,b);
 
-//         System.out.println("LCM = " + lcm);
-//     }
+        System.out.println("LCM = " + lcm);
+    }
 
-//     static int gcd(int a, int b) {
-//         while(b != 0) {
-//             int temp = b;
-//             b = a % b;
-//             a = temp;
-//         }
-//         return a;
-//     }
-// }
+    static int gcd(int a, int b) {
+        while(b != 0) {
+            int temp = b;
+            b = a % b;
+            a = temp;
+        }
+        return a;
+    }
+}
 
-// // 12. Check Leap Year
+// 12. Check Leap Year
 
-// import java.util.Scanner;
+import java.util.Scanner;
 
-// public class LeapYear {
-//     public static void main(String[] args) {
+public class LeapYear {
+    public static void main(String[] args) {
 
-//         Scanner sc = new Scanner(System.in);
-//         int year = sc.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int year = sc.nextInt();
 
-//         if(year % 4 == 0 && year % 100 != 0 || year % 400 == 0)
-//             System.out.println("Leap Year");
-//         else
-//             System.out.println("Not Leap Year");
-//     }
-// }
+        if(year % 4 == 0 && year % 100 != 0 || year % 400 == 0)
+            System.out.println("Leap Year");
+        else
+            System.out.println("Not Leap Year");
+    }
+}
 
-// // 13. Count Vowels and Consonants
+// 13. Count Vowels and Consonants
 
-// import java.util.Scanner;
+import java.util.Scanner;
 
-// public class VowelsConsonants {
-//     public static void main(String[] args) {
+public class VowelsConsonants {
+    public static void main(String[] args) {
 
-//         Scanner sc = new Scanner(System.in);
-//         String str = sc.nextLine();
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
 
-//         int vowels = 0, consonants = 0;
+        int vowels = 0, consonants = 0;
 
-//         for(char ch : str.toCharArray()) {
-//             if("aeiouAEIOU".indexOf(ch) != -1)
-//                 vowels++;
-//             else if(Character.isLetter(ch))
-//                 consonants++;
-//         }
+        for(char ch : str.toCharArray()) {
+            if("aeiouAEIOU".indexOf(ch) != -1)
+                vowels++;
+            else if(Character.isLetter(ch))
+                consonants++;
+        }
 
-//         System.out.println("Vowels = " + vowels);
-//         System.out.println("Consonants = " + consonants);
-//     }
-// }
+        System.out.println("Vowels = " + vowels);
+        System.out.println("Consonants = " + consonants);
+    }
+}
 
 // Topics Covered
 // Numbers
