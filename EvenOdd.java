@@ -1,4 +1,4 @@
-public class MAIN {
+
 
 //                                ===============  Java Basic Programs Collection  ===============
 // This repository contains common Java programming practice problems for beginners such as number problems, array algorithms, and string operations.
@@ -351,7 +351,3 @@ public class EvenOdd {
 // └── sorting
 
 // Just tell me and I’ll prepare it for you.
-
-
-    
-}
