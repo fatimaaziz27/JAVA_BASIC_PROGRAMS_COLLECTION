@@ -4,53 +4,45 @@
 
 // 1. Check Even or Odd
 
-// import java.util.Scanner;
+import java.util.Scanner;
 
-// public class EvenOdd {
-//     public static void main(String[] args) {
-//         Scanner sc = new Scanner(System.in);
+public class EvenOdd {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-//         int num = sc.nextInt();
+        int num = sc.nextInt();
 
-//         if (num % 2 == 0)
-//             System.out.println("Even");
-//         else
-//             System.out.println("Odd");
-//     }
-// }
-
-// OUTPUT:
-// 3
-// Odd
+        if (num % 2 == 0)
+            System.out.println("Even");
+        else
+            System.out.println("Odd");
+    }
+}
 
 // 2. Check Prime Number
 
-// import java.util.Scanner;
+import java.util.Scanner;
 
-// public class PrimeNumber {
-//     public static void main(String[] args) {
+public class PrimeNumber {
+    public static void main(String[] args) {
 
-//         Scanner sc = new Scanner(System.in);
-//         int num = sc.nextInt();
-//         int flag = 0;
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int flag = 0;
 
-//         for(int i = 2; i <= num/2; i++) {
-//             if(num % i == 0) {
-//                 flag = 1;
-//                 break;
-//             }
-//         }
+        for(int i = 2; i <= num/2; i++) {
+            if(num % i == 0) {
+                flag = 1;
+                break;
+            }
+        }
 
-//         if(flag == 0)
-//             System.out.println("Prime Number");
-//         else
-//             System.out.println("Not Prime");
-//     }
-// }
-
-// OUTPUT:
-// 7
-// Prime Number
+        if(flag == 0)
+            System.out.println("Prime Number");
+        else
+            System.out.println("Not Prime");
+    }
+}
 
 // 3. Factorial of a Number
 
@@ -296,64 +288,3 @@ public class VowelsConsonants {
         System.out.println("Consonants = " + consonants);
     }
 }
-
-// Topics Covered
-// Numbers
-
-// Even / Odd
-
-// Prime
-
-// Factorial
-
-// Fibonacci
-
-// Palindrome
-
-// Armstrong
-
-// GCD / LCM
-
-// Strings
-
-// Reverse String
-
-// Count Words
-
-// Remove Spaces
-
-// Remove Duplicates
-
-// Arrays
-
-// Linear Search
-
-// Binary Search
-
-// Bubble Sort
-
-// Selection Sort
-
-// Insertion Sort
-
-// Second Largest Element
-
-// Merge Arrays
-
-// Matrix
-
-// Matrix Addition
-
-// Matrix Transpose
-
-// If you want, I can also make a complete GitHub repository structure with folders like this (very professional for portfolio):
-
-// java-programs
-// │
-// ├── numbers
-// ├── arrays
-// ├── strings
-// ├── matrix
-// └── sorting
-
-// Just tell me and I’ll prepare it for you.
