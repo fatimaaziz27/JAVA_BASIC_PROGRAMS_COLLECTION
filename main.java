@@ -1,4 +1,5 @@
 //                                ===============  Java Basic Programs Collection  ===============
+
 // This repository contains common Java programming practice problems for beginners such as number problems, array algorithms, and string operations.
 
 // 1. Check Even or Odd
